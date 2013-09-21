@@ -170,6 +170,7 @@ div.tile {
 div.price {
 	float:right;
 	width:20%;
+	text-align:right;
 }
 
 div.tile-title{
@@ -191,6 +192,7 @@ div.listing-title{
 
 div.listing-price{
 	float:right;
+	text-align:right;
 }
 
 /*seller card*/
@@ -215,5 +217,24 @@ div.listing-price{
   
   .listing-content{
 	margin-right:35px;
+  }
+  
+  .discription {
+	margin:20px 0 20px 10px;
+
+  }
+  
+  .inline {
+  display:inline;
+  line-height:20px;
+  }
+  
+  .listing-buttons button{
+	width:30%;
+	margin: 0 5px;
+  }
+  
+  .listing-buttons{
+	margin-left:5px;
   }
   
