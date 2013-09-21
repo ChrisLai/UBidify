@@ -16,6 +16,9 @@
       }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -33,6 +36,7 @@
 			document.getElementById("home-zip").className = "noDisplay";
 			document.getElementById("home-buttons").className= "btn-group";
 		}
+		
 	</script>
  </head>
 
@@ -87,9 +91,15 @@
 					<h1>Free Furniture</hw>
 					<h3>Get Comfy</h3>
 					<div class="container content-holder">
-						<div class="span4 tile">
-						
-						</div>
+        <div class="span4">
+          <div class="boxgrid caption">
+            <img src="http://s3.amazonaws.com/buildinternet/live-tutorials/sliding-boxes/kamil.jpg"/>
+            <div class="cover boxcaption">
+                <h3>Jarek Kubicki</h3>
+                <p>Artist<br/><a href="<a class="linkification-ext" title="Linkification: http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/" href="http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/">http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/</a>" target="_BLANK">More Work</a></p>
+            </div>
+        </div> 
+        </div>
 						<div class="span4 tile">
 						
 						</div>
@@ -132,4 +142,12 @@
     <script src="../assets/js/bootstrap-typeahead.js"></script>
 
   </body>
+      <script>
+    //Caption Sliding (Partially Hidden to Visible)
+    $('.boxgrid.caption').hover(function(){
+        $(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+    }, function() {
+        $(".cover", this).stop().animate({top:'125px'},{queue:false,duration:160});
+    });
+     </script>
 </html>
