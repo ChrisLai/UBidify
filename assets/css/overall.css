@@ -1,16 +1,16 @@
 ﻿div #home-buttons{ 
-	margin: 200px auto;
+	margin: 225px auto;
 	width:255px;}
 	
 div #home-zip { 
-	margin: 200px auto;
+	margin: 225px auto;
 	width:300px;}
 	
 .noDisplay {
 	display:none;
 }
 #home-container {
-	height:500px;
+	height:550px;
 	background-image: url('../img/vtNight.jpg');
 	background-size: 100% auto;
 	background-position:center bottom; }
@@ -63,11 +63,22 @@ div.browse-content{
 	overflow:visible;
 }
 
+div.content-holder{
+	width:850px;
+}
+
 div.tile {
 	height:175px;
 	background-color: rgb(250,250,250);
-	margin-top:20px;
+	margin:15px 25px;
+	cursor:pointer;
 }
+
+
+
+
+
+
 /* My (Chris) Stuff don't touch*/
 /*Apply this class to parent div to center most text */
 .center h1, .center h2, .center h3{
@@ -145,9 +156,23 @@ div.tile {
     height: 175px;
     width: 100%;
     opacity: .8;
+	padding:0 10px;
     top:125px;
     /* For IE 5-7 */
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     /* For IE 8 */
     -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
      }
+div.price {
+	float:right;
+	width:20%;
+}
+
+div.tile-title{
+	float:left;
+	width:70%;
+}
+.boxcaption h3,
+.boxcaption p{
+	color:white;
+}
