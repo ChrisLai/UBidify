@@ -241,5 +241,19 @@ div.listing-price{
 	margin-left:5px;
   }
   
+  .create-label{
+	font-size:20px;
+	text-indent:20px;
+	margin-top:20px;
+  }
+  
+  .create-input{
+	margin-left:30px;
+  }
+  
+  #create-listing{
+	padding: 20px 0;
+  }
+  
   
   
