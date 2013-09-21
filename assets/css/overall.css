@@ -184,3 +184,35 @@ div.tile-title{
 .pagination a{
 	color: #8F1019;
 }
+
+div.listing-title{
+	float:left;
+}
+
+div.listing-price{
+	float:right;
+}
+
+/*seller card*/
+  .seller-card {
+      width: 300px;
+  }
+  .seller-card {
+      width: 300px;
+      margin: 10px 0 0;
+      padding: 0;
+      background-color: rgb(250,250,250);
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
+      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.1);
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+  }
+  .affix {
+    position: fixed;
+  }
+  
+  .listing-content{
+	margin-right:35px;
+  }
