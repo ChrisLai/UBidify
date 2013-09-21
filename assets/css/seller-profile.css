@@ -1,0 +1,44 @@
+.recent-history ul{
+	list-style-type: none;
+}
+.recent-history ul li{
+	height:40px;
+	margin:10px 0;
+	font-size:22px;
+	padding-top: 10px;
+}
+.recent-history span{
+	width:20%;
+	display:inline-block;
+	white-space: nowrap;
+}
+.recent-history .item-name{
+	width:25%;
+}
+.recent-history .price{
+	width:15%;
+}
+.recent-history .location{
+	width:25%;
+}
+.recent-history .date{
+	width:10%;
+}
+li.sucess{
+	background-color: #2ecc71;
+	color:white;
+}
+li.fail{
+	background-color: #e74c3c;
+	color:white;
+}
+.recent-history i{
+	margin:0 20px;
+}
+
+span.sucess{
+	color:#2ecc71;
+}
+span.fail{
+	color:#e74c3c;
+}

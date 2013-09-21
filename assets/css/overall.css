@@ -103,7 +103,8 @@ div.tile {
 .head button{
 	background-color:#fafafa;
 	color:#000000;
-	border:0;
+	border:1px solid #d4d4d4;
+
 }
 .head button:hover{
 	background-color:rgb(143, 16, 25);
