@@ -5,6 +5,10 @@
 div #home-zip { 
 	margin: 225px auto;
 	width:300px;}
+
+#logo {
+	width:150px;
+}	
 	
 .noDisplay {
 	display:none;
@@ -175,4 +179,8 @@ div.tile-title{
 .boxcaption h3,
 .boxcaption p{
 	color:white;
+}
+
+.pagination a{
+	color: #8F1019;
 }
