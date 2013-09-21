@@ -1,0 +1,70 @@
+﻿div #home-buttons{ 
+	margin: 200px auto;
+	width:255px;}
+	
+div #home-zip { 
+	margin: 200px auto;
+	width:300px;}
+	
+.noDisplay {
+	display:none;
+}
+#home-container {
+	height:500px;
+	background-image: url('../img/vtNight.jpg');
+	background-size: 100% auto;
+	background-position:center bottom; }
+	
+.bs-docs-sidenav.affix {
+  	top: 10px;
+}
+@media (min-width: 1200px) {
+  .bs-docs-sidenav {
+      width: 258px;
+  }
+  .bs-docs-sidenav {
+      width: 228px;
+      margin: 10px 0 0;
+      padding: 0;
+      background-color: rgb(250,250,250);
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.35);
+      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.35);
+      box-shadow: 0 1px 4px rgba(0,0,0,.35);
+  }
+  .affix {
+    position: fixed;
+  }
+
+.cat {
+	text-indent: 30px;
+	cursor:pointer;
+	color: #777;
+}
+
+.cat:hover{
+	color: #444;
+}
+}
+
+li.list-type > a {
+color: #000;
+}
+
+ul.nav-list > li.header,
+ul.nav-list > li.list-type{
+	text-indent:10px;
+	}
+	
+div.browse-content{
+	height:500px;
+	overflow:visible;
+}
+
+div.tile {
+	height:175px;
+	background-color: rgb(250,250,250);
+	margin-top:20px;
+}
