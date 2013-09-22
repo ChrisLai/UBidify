@@ -9,9 +9,17 @@ span{
 }
 .user-id{
 	width:19%;
+<<<<<<< HEAD
 }
 .preview-message{
 	width:60%;
+=======
+	
+}
+.preview-message{
+	width:60%;
+	margin:auto auto;
+>>>>>>> profile =========== account
 }
 .time{
 	width:19%;
@@ -20,9 +28,19 @@ span{
 li.read{
 	background-color:#fafafa;
 }
+<<<<<<< HEAD
 #inbox li{
 	margin-bottom: 15px;
 	border:1px solid black;
+=======
+
+#inbox {
+	margin-left:-10px;
+}
+#inbox li{
+	margin-bottom: 15px;
+border: 1px solid rgb(212, 212, 212);
+>>>>>>> profile =========== account
 	height:50px;
 	cursor:pointer;
 	white-space: nowrap;	
@@ -38,3 +56,34 @@ li.read{
 	text-align: right;
 	white-space:nowrap;
 }
+<<<<<<< HEAD
+=======
+
+.row {
+	padding:0 12px;
+}
+#account #inbox h2{
+	text-align: center;
+}
+#account .span4 h2{
+	text-align: right;
+}
+
+.password {
+	margin-bottom:30px;
+	height:200px;
+}
+
+.acc-head {
+	margin-bottom:30px;
+}
+
+.acc-button {
+	width:150px;
+	float:right;
+}
+
+.time {
+text-align:center;
+}
+>>>>>>> profile =========== account

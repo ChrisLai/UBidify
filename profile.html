@@ -11,6 +11,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link href="assets/css/overall.css" rel="stylesheet">
 	<link href="assets/css/liScroll1.css" rel="stylesheet">
+		<link href="assets/css/account.css" rel="stylesheet">
     <style>
       body {
         padding-top: 20px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -132,6 +133,112 @@
 					</ul>
 				</div>
 				<div class="span8 listing-content">
+					  <section id="inbox" class="span4">
+         <h1 class="acc-head">Inbox</h1>
+    <ul>
+        <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">ChrisDman Sent you a Message</span>
+            <span class="time">9/20</span>
+        </li>
+        <li class="read">
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">Krazy placed a bid on your item!</span>
+            <span class="time">9/18</span>
+        </li>
+        <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">Transaction Completed!</span>
+            <span class="time">9/17</span>
+        </li>
+        <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">Transaction Completed!</span>
+            <span class="time">9/10</span>
+        </li>
+          <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">I would like to buy your cat and...</span>
+            <span class="time">9/06</span>
+        </li> 
+        <li class="read">
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">I would like to buy your cat and...</span>
+            <span class="time">20:45</span>
+        </li>
+        <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">I would like to buy your cat and...</span>
+            <span class="time">20:45</span>
+        </li>
+        <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">I would like to buy your cat and...</span>
+            <span class="time">20:45</span>
+        </li>
+          <li>
+            <span class="user-id">ID0000</span>
+            <span class="preview-message">I would like to buy your cat and...</span>
+            <span class="time">20:45</span>
+        </li>       
+    </ul>
+
+  </section>
+  <section class="span4">
+        <h1 class="acc-head">Account Settings</h1>
+    <div class="row">
+	<form action="billing" method="post" class="form-horizontal password" id="billingform" accept-charset="utf-8">
+      <div class="control-group">
+        <label for="cur-pass" class="control-label"> 
+          Current Password
+        </label>
+        <div class="controls"><input name="cur-pass" type="password" value="" id="cur-pass">
+        </div>
+      </div>
+
+    <div class="control-group">
+        <label for="new-pass" class="control-label"> 
+          New Password
+        </label>
+        <div class="controls"><input name="new-pass" type="password" value="" id="new-pass">
+        </div>
+      </div>
+
+    <div class="control-group">
+        <label for="re-new-pass" class="control-label"> 
+          Retype New Password
+        </label>
+        <div class="controls"><input name="re-new-pass" type="password" value="" id="re-new-pass">
+        </div>
+      </div>
+
+        <button type="submit" class="btn acc-button pull-right">Change Password</button>
+
+    </form>
+	
+    <form action="billing" method="post" class="form-horizontal prof-info" id="billingform" accept-charset="utf-8">
+      <div class="control-group">
+        <label for="email" class="control-label"> 
+          E-Mail
+        </label>
+        <div class="controls">
+          <input name="email" type="email" value="" id="email">
+        </div>
+      </div>
+	  
+	  <div class="control-group">
+        <label for="zip" class="control-label"> 
+          Zip Code
+        </label>
+        <div class="controls"><input name="zip" type="text" value="" id="zip">
+        </div>
+      </div>
+	  
+	   <button type="submit" class="btn acc-button pull-right">Save Change</button>
+	 </form>
+
+</div>
+  </section>
 				</div>
 			</div>
 		</div>	
