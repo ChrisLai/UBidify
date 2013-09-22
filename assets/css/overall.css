@@ -218,10 +218,20 @@ div.listing-price{
   
   .listing-content{
 	margin-right:35px;
+	margin-bottom:40px;
+  }
+  
+  .listing-description {
+	width:100%;
+  }
+  
+  .listing-small {
+	width:48%;
+	display:inline-block;
   }
   
   .discription {
-	margin:20px 0 20px 10px;
+	margin:10px 0 25px 10px;
 
   }
   
@@ -231,15 +241,17 @@ div.listing-price{
   }
   
   .listing-buttons button{
-	width:30%;
-	margin: 0 5px;
+	width:100%;
 	      -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
       border-radius: 2px;
+	 	margin: 40px 0 0 0;
+	height:40px;
+	font-size:16px;
   }
   
   .listing-buttons{
-	margin-left:5px;
+
   }
   
   .create-label{
@@ -288,3 +300,35 @@ div.listing-price{
       -moz-box-shadow: 0 1px 4px rgba(0,0,0,.35);
       box-shadow: 0 1px 4px rgba(0,0,0,.35);
   }
+  
+ .span3 > h4 {
+	margin-bottom:0;
+ }
+ 
+ .green {
+ color: green;}
+ 
+ .red {
+ color: red;}
+ 
+ .seller-info {
+	text-indent: 15px;
+ }
+ 
+ .seller-trans {
+ margin: -5px 0 10px 0px;
+ float:left;
+ display:inline-block;
+ width:30%;
+ }
+ 
+ .seller-ver {
+ display:inline-block;
+ float:right;
+ width:50%;
+ line-height:10px;
+ }
+ 
+ .seller-card h3 {
+ margin-bottom:5px;
+ }
