@@ -244,17 +244,47 @@ div.listing-price{
   
   .create-label{
 	font-size:20px;
-	text-indent:20px;
 	margin-top:20px;
   }
   
-  .create-input{
-	margin-left:30px;
+  .create-label p {
+	width:100px;
+	display:inline-block;
+	text-align:right;
+	margin-right:30px;
+  }
+  
+  .modal-body {
+	max-height:460px;
+	min-height:400px;
   }
   
   #create-listing{
 	padding: 20px 0;
   }
   
+  .select-input {
+	margin-left: -5px;
+  }
   
+  span.added-input {
+	margin-left: -5px;
+  }
+  input.added-input {
+		width:180px;
+	}
   
+  #upload-span {
+  margin-left:-6px;
+  width:195px;
+  }
+  
+  .create-button {
+	  background-color: rgb(250,250,250);
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.35);
+      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.35);
+      box-shadow: 0 1px 4px rgba(0,0,0,.35);
+  }

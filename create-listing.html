@@ -57,9 +57,58 @@
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">About Us</a></li>
 					</ul>
+					<ul class="nav pull-right">
+						<li ><a data-toggle="modal" href="#myModal">Create Listing</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<form class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h1 class="modal-title">Create Listing</h1>
+					</div>
+					<div class="modal-body">
+						<label class="create-label" ><p>Title</p><input class="create-input" type="text"/></label>
+						<label class="create-label" ><p>Type</p>
+							<select class="select-input">
+								<option>Free</option>
+								<option>Bid</option>
+								<option>Imidiate</option>
+							</select>
+						<label class="create-label" ><p>Price</p>
+							<div class="input-prepend">
+								<span class="add-on added-input">$</span>
+								<input type="text" class="added-input" placeholder="0.00">
+							</div>
+						</label>
+						</label>
+						<label class="create-label" ><p>Category</p>
+							<select class="select-input">
+								<option>Auto</option>
+								<option>Books</option>
+								<option>Electronics</option>
+								<option>Furniture</option>
+								<option>Media</option>
+								<option>Toys</option>
+								<option>Other</option>
+							</select>
+						</label>
+						<label class="create-label" ><p>Description</p><textarea rows="4" class="create-input" ></textarea></label>
+						<label class="create-label" ><p>Zip-Code</p><input class="create-input" type="text"/></label>
+						<label class="create-label" ><p>Image</p>
+								<span class="btn btn-file" id="upload-span"><input class="select-input" type="file" /></span>
+						</label>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default create-button" data-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary create-button">Submit</button>
+					</div>
+				</form><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
     </div>
 	</div>
     <div class="container">
@@ -83,11 +132,6 @@
 					</ul>
 				</div>
 				<div class="span8 listing-content">
-					<h1>Create Listing<h1>
-					<h4>Make a appatising advertisement for your item!</h4>
-					<form id="create-listing">
-						<label class="create-label" >Title<input class="create-input" type="text"/></label>
-					</form>
 				</div>
 			</div>
 		</div>	
@@ -116,7 +160,7 @@
 		$( document ).ready(function(){
 			$("ul#ticker01").liScroll();
 		});
-		
+		$('.fileupload').fileupload()
 	</script>
 
   </body>
