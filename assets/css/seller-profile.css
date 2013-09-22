@@ -31,14 +31,14 @@
 .row{
 	margin-top:30px;
 }
-li.sucess{
+li.success{
 	border:1px solid #2ecc71;
 	color: #2ecc71;
 
 }
 li.fail{
-	background-color: #e74c3c;
-	color:white;
+	color:#e74c3c;;
+	border:1px solid #e74c3c;;
 }
 .recent-history i{
 	margin:0 20px;
