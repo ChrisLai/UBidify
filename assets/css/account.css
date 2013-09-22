@@ -1,0 +1,40 @@
+ul{
+	list-style-type: none;
+}
+#logo{
+	width:150px;
+}
+span{
+	display:inline-block;
+}
+.user-id{
+	width:19%;
+}
+.preview-message{
+	width:60%;
+}
+.time{
+	width:19%;
+	text-align: right;
+}
+li.read{
+	background-color:#fafafa;
+}
+#inbox li{
+	margin-bottom: 15px;
+	border:1px solid black;
+	height:50px;
+	cursor:pointer;
+	white-space: nowrap;	
+}
+li.read{
+	background-color: #d4d4d4;
+}
+.row h2:first-child{
+	text-align: center;
+	white-space: nowrap;
+}
+.row h2:last-child{
+	text-align: right;
+	white-space:nowrap;
+}

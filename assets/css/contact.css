@@ -13,6 +13,6 @@ textarea{
 	color: #000000;
 	border: 1px solid #d4d4d4;
 }
-h2, p{
+body#contact h2, body#contact p{
 	text-align: center;
 }
